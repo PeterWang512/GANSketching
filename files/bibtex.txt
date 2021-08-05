@@ -1,0 +1,6 @@
+@inproceedings{wang2021sketch,
+  title={Sketch Your Own GAN},
+  author={Wang, Sheng-Yu and Bau, David and Zhu, Jun-Yan},
+  booktitle={ICCV},
+  year={2021}
+}
