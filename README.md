@@ -1,6 +1,6 @@
 ## Customizing a GAN by Sketching [[Project Page]](https://peterwang512.github.io/GANSketching/)
 
-**Sketch Your Own GAN**
+**Sketch Your Own GAN**<br>
 [Sheng-Yu Wang](https://peterwang512.github.io/)<sup>1</sup>, [David Bau](https://people.csail.mit.edu/davidbau/home/)<sup>2</sup>, [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.
 <br> CMU<sup>1</sup>, MIT CSAIL<sup>2</sup>
 <br>In [ICCV](https://arxiv.org/abs/2108.02774), 2021.
