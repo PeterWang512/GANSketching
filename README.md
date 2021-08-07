@@ -1,15 +1,18 @@
-## Customizing a GAN by Sketching [[Project Page]](https://peterwang512.github.io/GANSketching/)
+## Sketch Your Own GANSpace
+ [**Project**](https://peterwang512.github.io/GANSketching/) | [**Paper**](https://arxiv.org/abs/2108.02774)
 
-**Sketch Your Own GAN**<br>
-[Sheng-Yu Wang](https://peterwang512.github.io/)<sup>1</sup>, [David Bau](https://people.csail.mit.edu/davidbau/home/)<sup>2</sup>, [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.
-<br> CMU<sup>1</sup>, MIT CSAIL<sup>2</sup>
-<br>In [ICCV](https://arxiv.org/abs/2108.02774), 2021.
+
 
 <p align="center">
  <img src="images/teaser_video.gif"  width="800" />
 </p>
 Our method takes in one or a few hand-drawn sketches and customizes an off-the-shelf GAN to match the input sketch. The same noise z is used for the pre-trained and customized models. While our new model changes an object’s shape and pose, other visual cues such as color, texture, background, are faithfully preserved after the modification.
 <br><br><br>
+
+[Sheng-Yu Wang](https://peterwang512.github.io/)<sup>1</sup>, [David Bau](https://people.csail.mit.edu/davidbau/home/)<sup>2</sup>, [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)<sup>1</sup>.
+<br> CMU<sup>1</sup>, MIT CSAIL<sup>2</sup>
+<br>In [ICCV](https://arxiv.org/abs/2108.02774), 2021.
+
 
 **Training code, evaluation code, and datasets from our paper will be released soon.**
 
