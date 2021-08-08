@@ -18,10 +18,30 @@ Our method takes in one or a few hand-drawn sketches and customizes an off-the-s
 
 
 ## Results
-Our method can customize a pre-trained GAN to match the input sketch.
+Our method can customize a pre-trained GAN to match input sketches.
 
 <img src="images/teaser.jpg" width="800px"/>
 
+
+
+**Interpolation using our customized models.** Latent space interpolation is smooth with our customized models.
+<table cellpadding="0" cellspacing="0" >
+  <tr>
+    <td  align="center">Image 1 <br> <img src="images/cat1.jpg"  width=267px></td>
+    <td  align="center">Interoplation <br> <img src="images/interp.gif" width=267px></td>
+    <td  align="center">Image 2 <br> <img src="images/cat2.jpg" width=267px></td>
+  </tr>
+</table>
+
+**Image editing using our customized models.**  Given a real image (a), we project it to the original model's latent space z using [Huh et al.](https://github.com/minyoungg/pix2latent) (b). (c) We then feed the projected z to the our standing cat model trained on sketches. (d) Finally, we showed edit the image with `add fur` operation using [GANSpace](https://github.com/harskish/ganspace).
+
+<img src="images/editing.jpg" width="800px"/>
+
+
+
+**Failure case**. Our method is not capable of generating images to match the Attneave’s cat sketch or the horse sketch by Picasso. We note that Attneave’s cat depicts a complex pose, and Picasso’s sketches are drawn with a distinctive style, both of which make our method struggle.
+
+<img src="images/failure_case.jpg" width="800px"/>
 
 
 ## Getting Started
@@ -81,4 +101,4 @@ If you find this useful for your research, please cite the following work.
 }
 ```
 
-Please contact [Sheng-Yu Wang](https://peterwang512.github.io/) with any comments or feedback.
+Feel free to contact us with any comments or feedback.
