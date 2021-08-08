@@ -27,9 +27,9 @@ Our method can customize a pre-trained GAN to match input sketches.
 **Interpolation using our customized models.** Latent space interpolation is smooth with our customized models.
 <table cellpadding="0" cellspacing="0" >
   <tr>
-    <td  align="center">Image 1 <br> <img src="images/cat1.jpg"  width=267px></td>
-    <td  align="center">Interoplation <br> <img src="images/interp.gif" width=267px></td>
-    <td  align="center">Image 2 <br> <img src="images/cat2.jpg" width=267px></td>
+    <td  align="center">Image 1 <br> <img src="images/cat1.jpg"  width=240px></td>
+    <td  align="center">Interoplation <br> <img src="images/interp.gif" width=240px></td>
+    <td  align="center">Image 2 <br> <img src="images/cat2.jpg" width=240px></td>
   </tr>
 </table>
 
