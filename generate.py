@@ -6,7 +6,6 @@ import numpy as np
 import torch
 from torchvision import utils
 from training.networks.stylegan2 import Generator
-from tqdm import tqdm
 
 
 def save_image_pytorch(img, name):
@@ -33,7 +32,6 @@ def generate(args, netG, device, mean_latent):
 
     assert args.samples % args.batch_size == 0
     ind = 0
-    iterations = args.samples // args.batch_size
     with torch.no_grad():
         netG.eval()
 

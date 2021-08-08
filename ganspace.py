@@ -20,9 +20,9 @@ def gen_principal_components(dump_name, device='cpu'):
 def apply_shift(g, mean_latent, latents, w_comp, w_std, s, layers, w_plus=False, trunc=0.5):
     """Apply GANSpace edits."""
     if not w_plus:
-        latents = latents[:,None,:].repeat(1, 18, 1)
+        latents = latents[:, None, :].repeat(1, 18, 1)
 
-    latents[:,layers,:] = latents[:,layers,:] + w_comp[:,None,:] * s * w_std
+    latents[:, layers, :] = latents[:, layers, :] + w_comp[:, None, :] * s * w_std
 
     im = g([latents], input_is_latent=True, truncation=trunc, truncation_latent=mean_latent)[0]
 
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     # setup GANSpace config
     k, s = args.comp_id, args.scalar
     l_start, l_end = [int(d) for d in args.layers.split(',')]
-    layers = range(l_start, l_end+1)
+    layers = range(l_start, l_end + 1)
     lat_comp, lat_mean, lat_std = gen_principal_components(f'./weights/ganspace_{args.obj}.npz', device=device)
     w_comp = lat_comp[k]
     w_std = lat_std[k]

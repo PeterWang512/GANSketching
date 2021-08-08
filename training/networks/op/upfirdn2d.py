@@ -174,8 +174,8 @@ def upfirdn2d_native(
     )
     out = out[
         :,
-        max(-pad_y0, 0) : out.shape[1] - max(-pad_y1, 0),
-        max(-pad_x0, 0) : out.shape[2] - max(-pad_x1, 0),
+        max(-pad_y0, 0): out.shape[1] - max(-pad_y1, 0),
+        max(-pad_x0, 0): out.shape[2] - max(-pad_x1, 0),
         :,
     ]
 
