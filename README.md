@@ -16,11 +16,15 @@ Our method takes in one or a few hand-drawn sketches and customizes an off-the-s
 
 **Training code, evaluation code, and datasets from our paper will be released soon.**
 
-## Setup
+## Getting Started
+
+### Download our repo
 
 ### Install packages
 - Install PyTorch (version >= 1.6.0) ([pytorch.org](http://pytorch.org))
-- `pip install -r requirements.txt`
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ### Download model weights
 - Run `bash weights/download_weights.sh`
@@ -56,6 +60,16 @@ python ganspace.py --obj cat --comp_id 45 --scalar 60 --layers 5,7 --ckpt weight
 
 This repository borrows partially from [SPADE](https://github.com/NVlabs/SPADE), [stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch), [PhotoSketch](https://github.com/mtli/PhotoSketch), [GANSpace](https://github.com/harskish/ganspace), and [data-efficient-gans](https://github.com/mit-han-lab/data-efficient-gans).
 
-## Citation, Contact
+## Reference
 
-If you find this useful for your research, please consider citing this [bibtex](https://peterwang512.github.io/GANSketching/files/bibtex.txt). Please contact Sheng-Yu Wang \<shengyu2 at andrew dot cmu dot edu\> with any comments or feedback.
+If you find this useful for your research, please cite the following work.
+```
+@inproceedings{wang2021sketch,
+  title={Sketch Your Own GAN},
+  author={Wang, Sheng-Yu and Bau, David and Zhu, Jun-Yan},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  year={2021}
+}
+```
+
+Please contact Sheng-Yu Wang \<shengyu2 at andrew dot cmu dot edu\> with any comments or feedback.
