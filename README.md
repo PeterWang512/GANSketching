@@ -2,9 +2,9 @@
  [**Project**](https://peterwang512.github.io/GANSketching/) | [**Paper**](https://arxiv.org/abs/2108.02774)
 
 
-<p align="center">
- <img src="images/teaser_video.gif"  width="800" />
-</p>
+
+<img src="images/teaser_video.gif" width="800px"/>
+
 
 Our method takes in one or a few hand-drawn sketches and customizes an off-the-shelf GAN to match the input sketch. While our new model changes an object’s shape and pose, other visual cues such as color, texture, background, are faithfully preserved after the modification.
 <br><br><br>
@@ -15,6 +15,14 @@ Our method takes in one or a few hand-drawn sketches and customizes an off-the-s
 
 
 **Training code, evaluation code, and datasets will be released soon.**
+
+
+## Results
+Our method can customize a pre-trained GAN to match the input sketch.
+
+<img src="images/teaser.jpg" width="800px"/>
+
+
 
 ## Getting Started
 
