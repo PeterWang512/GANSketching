@@ -1,4 +1,4 @@
-## Sketch Your Own GANSpace
+## Sketch Your Own GAN
  [**Project**](https://peterwang512.github.io/GANSketching/) | [**Paper**](https://arxiv.org/abs/2108.02774)
 
 
@@ -18,8 +18,11 @@ Our method takes in one or a few hand-drawn sketches and customizes an off-the-s
 
 ## Getting Started
 
-### Download our repo
-
+### Clone our repo
+```bash
+git clone git@github.com:PeterWang512/GANSketching.git
+cd GANSketching
+```
 ### Install packages
 - Install PyTorch (version >= 1.6.0) ([pytorch.org](http://pytorch.org))
   ```bash
