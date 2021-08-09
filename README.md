@@ -1,5 +1,5 @@
 ## Sketch Your Own GAN
- [**Project**](https://peterwang512.github.io/GANSketching/) | [**Paper**](https://arxiv.org/abs/2108.02774)
+ [**Project**](https://peterwang512.github.io/GANSketching/) | [**Paper**](https://arxiv.org/abs/2108.02774) | [**Youtube**](https://www.youtube.com/watch?v=1smwQ-tSCjM)
 
 
 
@@ -27,9 +27,9 @@ Our method can customize a pre-trained GAN to match input sketches.
 **Interpolation using our customized models.** Latent space interpolation is smooth with our customized models.
 <table cellpadding="0" cellspacing="0" >
   <tr>
-    <td  align="center">Image 1 <br> <img src="images/cat1.jpg"  width=240px></td>
+    <td  align="center">Image 1 <br> <img src="images/cat2.jpg"  width=240px></td>
     <td  align="center">Interoplation <br> <img src="images/interp2.gif" width=240px></td>
-    <td  align="center">Image 2 <br> <img src="images/cat2.jpg" width=240px></td>
+    <td  align="center">Image 2 <br> <img src="images/cat1.jpg" width=240px></td>
   </tr>
 </table>
 
