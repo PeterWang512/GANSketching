@@ -271,15 +271,62 @@
       <br><hr>
 
 
-        <table align="center" width="1100px">
-          <tbody><tr>
-                  <td width="400px">
-            <left>
-          <center><h2>Uncurated samples from the customized models</h2></center>
-          Each video shows uncurated samples generated from a model trained on one or more sketch inputs. An example sketch input is shown for each model.
-      </left>
-    </td>
-       </tr></tbody></table><br><br>
+      <center><h2>Results</h2></center>
+
+
+       <p align="center">Our method can customize a pre-trained GAN to match input sketches.</p>
+       
+       <center><img src="files/teaser.jpg" width="800px"/></center>
+       
+       
+       
+       <p align="center"><b>Interpolation using our customized models.</b> Latent space interpolation is smooth with our customized models.</p>
+       <table align="center" cellpadding="0" cellspacing="0" >
+         <tr>
+           <center><td  align="center">Image 1 <br> <img src="files/cat2.jpg"  width=240px></td></center>
+           <center><td  align="center">Interoplation <br> <img src="files/interp2.gif" width=240px></td></center>
+           <center><td  align="center">Image 2 <br> <img src="files/cat1.jpg" width=240px></td></center>
+         </tr>
+       </table>
+       
+       <p align="center"><b>Image editing using our customized models.</b>  (a) Given a real image, (b) we project it to the original model's noise z using <a href="https://github.com/minyoungg/pix2latent">Huh et al.</a> (c) We feed the projected z to the standing cat model trained on sketches. (d) we edit the image with `add fur` operation using <a href="https://github.com/harskish/ganspace">GANSpace</a>.</p>
+       
+       <center><img src="files/editing.jpg" width="800px"/></center>
+    
+    
+    <p align="center">We can interpolate between the customized model by interpolating the W-latent space.</p>
+    <table align="center" cellpadding="0" cellspacing="10" >
+      <tr>
+        <center><td  align="center">Model 1 <br> <img src="files/interp/1.png"  height=120px border=1></td></center>
+        <center><td  align="center">Interoplation in W-latent space <br> <img src="files/interp/latent_1.gif" height=120px></td></center>
+        <center><td  align="center">Model 2 <br> <img src="files/interp/0.png" height=120px border=1></td></center>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="10" >
+      <tr>
+        <center><td  align="center"><img src="files/interp/1.png"  height=120px border=1></td></center>
+        <center><td  align="center"><img src="files/interp/latent_2.gif" height=120px></td></center>
+        <center><td  align="center"><img src="files/interp/2.png" height=120px border=1></td></center>
+      </tr>
+    </table>
+
+    <p align="center">We observe similar effect by interpolating the model weights directly.</p>
+    <table align="center" cellpadding="0" cellspacing="10" >
+      <tr>
+        <center><td  align="center">Model 1 <br> <img src="files/interp/1.png"  height=120px border=1></td></center>
+        <center><td  align="center">Interoplation in the model weight space <br> <img src="files/interp/weight_1.gif" height=120px></td></center>
+        <center><td  align="center">Model 2 <br> <img src="files/interp/0.png" height=120px border=1></td></center>
+      </tr>
+    </table>
+    <table align="center" cellpadding="0" cellspacing="10" >
+      <tr>
+        <center><td  align="center"><img src="files/interp/1.png"  height=120px border=1></td></center>
+        <center><td  align="center"><img src="files/interp/weight_2.gif" height=120px></td></center>
+        <center><td  align="center"><img src="files/interp/2.png" height=120px border=1></td></center>
+      </tr>
+    </table>
+
+    <p align="center">Each video shows uncurated samples generated from a model trained on one or more sketch inputs. An example sketch input is shown.</p> 
 
     <table align="center" width="1100px"><tbody>
       <tr><td>
