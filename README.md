@@ -38,6 +38,38 @@ Our method can customize a pre-trained GAN to match input sketches.
 <img src="images/editing.jpg" width="800px"/>
 
 
+**Model interpolation.** We can interpolate between the customized model by interpolating the W-latent space.
+<table align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <center><td  align="center">Model 1 <br> <img src="images/model_interp/1.png"  height=120px border=1></td></center>
+    <center><td  align="center">Interoplation in W-latent space <br> <img src="images/model_interp/latent_1.gif" height=120px></td></center>
+    <center><td  align="center">Model 2 <br> <img src="images/model_interp/0.png" height=120px border=1></td></center>
+  </tr>
+</table>
+<table align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <center><td  align="center"><img src="images/model_interp/1.png"  height=120px border=1></td></center>
+    <center><td  align="center"><img src="images/model_interp/latent_2.gif" height=120px></td></center>
+    <center><td  align="center"><img src="images/model_interp/2.png" height=120px border=1></td></center>
+  </tr>
+</table>
+
+We observe similar effect by interpolating the model weights directly.
+<table align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <center><td  align="center">Model 1 <br> <img src="images/model_interp/1.png"  height=120px border=1></td></center>
+    <center><td  align="center">Interoplation in the model weight space <br> <img src="images/model_interp/weight_1.gif" height=120px></td></center>
+    <center><td  align="center">Model 2 <br> <img src="images/model_interp/0.png" height=120px border=1></td></center>
+  </tr>
+</table>
+<table align="center" cellpadding="0" cellspacing="0" >
+  <tr>
+    <center><td  align="center"><img src="images/model_interp/1.png"  height=120px border=1></td></center>
+    <center><td  align="center"><img src="images/model_interp/weight_2.gif" height=120px></td></center>
+    <center><td  align="center"><img src="images/model_interp/2.png" height=120px border=1></td></center>
+  </tr>
+</table>
+
 
 **Failure case**. Our method is not capable of generating images to match the Attneave’s cat sketch or the horse sketch by Picasso. We note that Attneave’s cat depicts a complex pose, and Picasso’s sketches are drawn with a distinctive style, both of which make our method struggle.
 
