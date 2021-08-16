@@ -121,7 +121,7 @@ python ganspace.py --obj cat --comp_id 45 --scalar 60 --layers 5,7 --ckpt weight
 ```
 
 ### Colab
-Thanks to [Luke Floden](https://github.com/bionboy) for creating a colab to do the quick start above. Colab link: (quickstart_colab.ipynb)[https://colab.research.google.com/github/peterwang512/GANSketching/blob/master/quickstart_colab.ipynb]
+Thanks to [Luke Floden](https://github.com/bionboy) for creating a colab to do the quick start above. Colab link: [quickstart_colab.ipynb](https://colab.research.google.com/github/peterwang512/GANSketching/blob/master/quickstart_colab.ipynb)
 
 ## Model Training
 
