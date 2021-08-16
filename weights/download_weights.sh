@@ -1,2 +1,3 @@
-wget https://cs.cmu.edu/~shengyu2/GANSketching/by_author_cat_aug.pth -O ./weights/by_author_cat_aug.pth
-wget https://cs.cmu.edu/~shengyu2/GANSketching/photosketch_standing_cat_noaug.pth -O ./weights/photosketch_standing_cat_noaug.pth
+wget https://www.cs.cmu.edu/~gansketching/files/weights.zip -O ./weights/weights.zip
+unzip ./weights/weights.zip -d ./weights
+rm ./weights/weights.zip

@@ -30,7 +30,6 @@ def generate(args, netG, device, mean_latent):
     else:
         w_shift = torch.tensor(0., device=device)
 
-    assert args.samples % args.batch_size == 0
     ind = 0
     with torch.no_grad():
         netG.eval()
