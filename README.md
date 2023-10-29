@@ -29,7 +29,7 @@ Our method can customize a pre-trained GAN to match input sketches.
 <table cellpadding="0" cellspacing="0" >
   <tr>
     <td  align="center">Image 1 <br> <img src="images/cat2.jpg"  width=240px></td>
-    <td  align="center">Interoplation <br> <img src="images/interp2.gif" width=240px></td>
+    <td  align="center">Interpolation <br> <img src="images/interp2.gif" width=240px></td>
     <td  align="center">Image 2 <br> <img src="images/cat1.jpg" width=240px></td>
   </tr>
 </table>
@@ -43,7 +43,7 @@ Our method can customize a pre-trained GAN to match input sketches.
 <table cellpadding="0" cellspacing="0" >
   <tr>
     <center><td  align="center">Model 1 <br> <img src="images/model_interp/1.png"  height=90px border=1></td></center>
-    <center><td  align="center">Interoplation in W-latent space <br> <img src="images/model_interp/latent_1.gif" height=90px></td></center>
+    <center><td  align="center">Interpolation in W-latent space <br> <img src="images/model_interp/latent_1.gif" height=90px></td></center>
     <center><td  align="center">Model 2 <br> <img src="images/model_interp/0.png" height=90px border=1></td></center>
   </tr>
 </table>
@@ -59,7 +59,7 @@ We observe similar effect by interpolating the model weights directly.
 <table cellpadding="0" cellspacing="0" >
   <tr>
     <center><td  align="center">Model 1 <br> <img src="images/model_interp/1.png"  height=90px border=1></td></center>
-    <center><td  align="center">Interoplation in the model weight space <br> <img src="images/model_interp/weight_1.gif" height=90px></td></center>
+    <center><td  align="center">Interpolation in the model weight space <br> <img src="images/model_interp/weight_1.gif" height=90px></td></center>
     <center><td  align="center">Model 2 <br> <img src="images/model_interp/0.png" height=90px border=1></td></center>
   </tr>
 </table>
